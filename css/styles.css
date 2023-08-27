@@ -1,3 +1,13 @@
+body {
+  background-image: url("../images/grey.png");
+  opacity:0.9; 
+  height: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 h1 {
   	color: black;
   	text-align: center;
@@ -5,20 +15,21 @@ h1 {
 }
 
 h2{
-	color: red;
-	text-align: center;
-	font-style: italic;
+	color: black;
+	text-align: left;
+	font-style: bold;
 }
 h3{
 	color: red;
-	text-align: center;
-	
+	text-align: left;
+	font-style: bold;
 }
 
 p{
 	color:black;
-	text-align: center;
-	font-family: sans-serif;
+	text-align: left;
+	font-style: bold;
+	font-size: 5;
 }
 a{
 	color:black;
@@ -34,8 +45,37 @@ a{
   	border: 5px solid #555;
 
 }
+table {
+  border-style: dotted;
+  width: 50%;
+  border-collapse: collapse;
+}
 
-body {
-  background-color: lightgrey;
-  opacity: 0.8;
+
+.my-table{
+	color: black;
+	float: left;
+	text-align: center;
+	font-style: bold;
+	font-family: Comic-Sans-MS;
+	width: 50%;
+
+}
+.my-selection{
+	float: right;
+	text-align: left;
+	font-style: bold;
+	font-size: 5;
+	width: 50%;
+
+}
+
+
+}
+card-footer{
+	text-align: center;
+	color: red;
+	font-style: bold;
+	font-family: Comic-Sans-MS;
+
 }
