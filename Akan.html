@@ -5,19 +5,58 @@
     <img src="images/akan.png" alt="A photo of letter 'A' for Akan" class="center">
     <title>Akan Name Generator</title>
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="js/DayCalc.js">
-  <head/>
+  </head>
 
   <body>
     <h1>Akan Name Generator</h1>
-
-    <h2>Determine your Day of Birth & Akan Name<h2/>
-
-    <p>Based on your date of your birth, we determine the day of the week you were born and the corresponding Akan name you'd be given.<p><p> <a href="https://en.wikipedia.org/wiki/Akan_names "target="_blank">More on Akan Names.</a></p>
-
-    <div class="card-body">
-      <p>Enter your DOB below:<p>
-        <select name="day" id="day">
+    <h2>Based on your date of your birth, we determine the day of the week you were born and the corresponding Akan name you'd be given. Learn more about Akan names <a href="https://en.wikipedia.org/wiki/Akan_names "target="_blank">here.</a></h2>
+    <div class="my-table">
+      <table>
+        <tr>
+          <th>Day</th>
+          <th>Female</th>
+          <th>Male</th>
+        </tr>
+        <tr>
+          <td>Monday</td>
+          <td>Adwoa</td>
+          <td>Kwadwo</td>
+        </tr>
+        <tr>
+          <td>Tuesday</td>
+          <td>Abenaa</td>
+          <td>Kwabena</td>
+        </tr>
+        <tr>
+          <td>Wednesday</td>
+          <td>Akua</td>
+          <td>Kwaku</td>
+        </tr>
+        <tr>
+          <td>Thursday</td>
+          <td>Yaa</td>
+          <td>Yaw</td>
+        </tr>
+        <tr>
+          <td>Friday</td>
+          <td>Afua</td>
+          <td>Kofi</td>
+        </tr>
+        <tr>
+          <td>Saturday</td>
+          <td>Ama</td>
+          <td>Kwame</td>
+        </tr>
+        <tr>
+          <td>Sunday</td>
+          <td>Akosua</td>
+          <td>Kwasi</td>
+        </tr>    
+      </table>
+    </div>      
+    <div class="my-selection">
+      <p>Please enter your DOB below:<p>
+          <select name="day" id="day">
             <option value="1">1</option>
             <option value="2">2</option>
             <option value="3">3</option>
@@ -68,25 +107,21 @@
 
           <input type="number" id="year">
           <br>
-
-        <p>Please select your gender:</p>
-          <select name="Gender" id="gender">
-            <option value="male">Male</option>
-            <option value="female">Female</option>
-          </select>
-
+          <p>Please select your gender:</p>
+            <select name="Gender" id="gender">
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+            </select>
           <br>
-    </div>
-    <div class="card-footer">
-      <input type="button" value="SUBMIT" onclick="dayCalc()">
-      <h3 id ="display"> </h3>
-      <script src="js/DayCalc.js">
-      </script>
-      <footer>
-        </div>
-          <div class="footer"> 
-        </div>
-      </footer>
-    </div>
+          <input type="button" value="SUBMIT"onclick="dayCalc()">
+          <br/>
+          <h3 id ="display"> </h3>
+          <script src="js/DayCalc.js">
+          </script>
+    </div> 
+    <footer>
+      <div class="footer"> 
+      </div>
+    </footer> 
   </body>
 </html>
